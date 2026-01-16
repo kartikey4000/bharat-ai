@@ -25,7 +25,7 @@ app.include_router(chat_router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://bharat-ai-frontend-ks7uk8skd-kartikey-ahujas-projects.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 
